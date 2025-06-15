@@ -25,6 +25,9 @@ module.exports = {
 					{ name: 'Money in da pocket', value: 'donation_alert' },
 					{ name: 'OHOHOHO', value: 'ohoho' },
 					{ name: 'HELP HELP HELP', value: 'help' },
+					{ name: 'AHEM AHEM', value: 'cough.mp3' },
+					{ name: 'Gerbie loves WHAT!?', value: 'kawk' },
+					{ name: 'Gerbie attack', value: 'yeahHUHUHU' },
 				)),
 
 	async execute(interaction) {
@@ -50,7 +53,7 @@ module.exports = {
 				adapterCreator: interaction.guild.voiceAdapterCreator,
 				selfDeaf: false,
 			});
-			await entersState(connection, VoiceConnectionStatus.Ready, 5_000);
+			await entersState(connection, VoiceConnectionStatus.Ready, 10_000);
 		}
 		catch (error) {
 			console.error('Failed to connect to voice channel:', error);
