@@ -28,6 +28,9 @@ module.exports = {
 					{ name: 'AHEM AHEM', value: 'cough.mp3' },
 					{ name: 'Gerbie loves WHAT!?', value: 'kawk' },
 					{ name: 'Gerbie attack', value: 'yeahHUHUHU' },
+					{ name: 'wtf', value: 'wtf' },
+					{ name: 'waarom is niemand ooo', value: 'ooh' },
+					{ name: 'EYYYYYYYY', value: 'eyy' },
 				)),
 
 	async execute(interaction) {
