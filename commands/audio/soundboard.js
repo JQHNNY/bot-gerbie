@@ -31,6 +31,7 @@ module.exports = {
 					{ name: 'wtf', value: 'wtf' },
 					{ name: 'waarom is niemand ooo', value: 'ooh' },
 					{ name: 'EYYYYYYYY', value: 'eyy' },
+					{ name: 'glizzy', value: 'glizzy' },
 				)),
 
 	async execute(interaction) {
